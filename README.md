@@ -42,7 +42,7 @@ if anyone has question or wants to contribute to the project the please contact 
 
 ## Live link
 
-https://kalister5.github.io/test
+<https://kalister5.github.io/test>
 
 ## Behavior Driven Development
 
@@ -55,4 +55,5 @@ When the user press the am finished button.
 Then the score points will appear.
 
 ## License
+
 MIT licence. Copyright (c) 2018 Abdillahi mohamud
