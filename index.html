@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+ <link rel="stylesheet" href="css/bootstrap.css">
+ <link rel="stylesheet" href="css/style.css">
+ <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
+ <script src="js/script.js" charset="utf-8"></script>
+ <meta charset="utf-8">
+ <title></title>
+</head>
+<body>
+ <div class="container">
+   <div class="row">
+     <div class="col-md-2"></div>
+     <div class="col-md-8">
+       <h3 class="quiz-board-title">Quiz For javaScript!</h3>
+       <div class="quiz-board">
+         <form id="javascript-quiz">
+           <div class="form-group">
+          <label for="text">Name</label><input type="text" id="Name" class="form-control" size="20" required>
+        </div>
+
+        <div>
+          <label for="text">class</label><input type="text" id="class" class="form-control" size="20" required>
+        </div>
+        <div><br>
+          <label for="email">Enter your gmail acccount:</label><input type="email" id="email" pattern=".+@gmail.com" size="30" required>
+        </div>
+           <p>1) Who introduced JavaScript to the world?<br>
+             <input type="radio" name="answerOne" value="Steve Jobs">Steve Jobs<br>
+             <input type="radio" name="answerOne" value="Brendan Eich">Brendan Eich<br>
+             <input type="radio" name="answerOne" value="Jay Z">Jay Z<br>
+             <input type="radio" name="answerOne" value="Barack Obama">Barack Obama<br>
+           </p>
+           <p>2) Are Attributes and Property the same?<br>
+             <input type="radio" name="answerTwo" value="Yes">Yes<br>
+             <input type="radio" name="answerTwo" value="Maybe">Maybe<br>
+             <input type="radio" name="answerTwo" value="NO">NO<br>
+             <input type="radio" name="answerTwo" value="Non of the above">Non of the above<br>
+           </p>
+           <p>3)Which capitalization style is used to name Variables?<br>
+             <input type="radio" name="answerThree" value="Lower camelcase">Lower camelcase<br>
+             <input type="radio" name="answerThree" value="Upper horsecase">Upper horsecase<br>
+             <input type="radio" name="answerThree" value="Middle cowcase">Middle cowcase<br>
+             <input type="radio" name="answerThree" value="Upper goatcase">Upper goatcase<br>
+           </p>
+           <p>In Javascript, a series of characters inside of quotation marks is called?<br>
+             <input type="radio" name="answerFour" value="Quote">Quote<br>
+             <input type="radio" name="answerFour" value="Speech">Speech<br>
+             <input type="radio" name="answerFour" value="Sentence">Sentence<br>
+             <input type="radio" name="answerFour" value="String">String<br>
+           </p>
+           <p>In whaich year was Javascript founded?<br>
+             <input type="radio" name="answerFive" value="1900">1900<br>
+             <input type="radio" name="answerFive" value="1995">1995<br>
+             <input type="radio" name="answerFive" value="1993">1993<br>
+             <input type="radio" name="answerFive" value="1978">1978<br>
+           </p>
+           <div id='unattemptedQuestions'></div>
+           <button type="submit" class="button" onclick="">Submit</button>
+         </form>
+       </div>
+       <div id='display-results' class="display-results"></div>
+       <div id="retake">
+         <a class="button" href="index.html">Retake Quiz</a>
+       </div>
+     </div>
+     <div class="col-md-2"></div>
+   </div>
+ </div>
+</body>
+</html>
