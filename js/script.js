@@ -1,4 +1,4 @@
-var answers = ["Brendan Eich", "NO", "Lower camelcase", "String", "1995"];
+var answers = ["Brendan Eich", "NO", "Lower camelcase", "The operator typeof gives the type of a variable/data available in it.", "1995"];
 var awardedPoints = 20;
 
 
