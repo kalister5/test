@@ -20,7 +20,7 @@ $(document).ready(function() {
 
     if (answerOne === undefined || answerTwo === undefined || answerThree === undefined || answerFour === undefined || answerFive === undefined) {
       $('#unattemptedQuestions').text('Please attempt all questions.');
-      $('#unattemptedQuestions').fadeOut(10000);
+      $('#unattemptedQuestions').toggle(10000);
     } else {
       if (answerOne === answers[0]) {
         score += awardedPoints;
