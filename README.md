@@ -52,7 +52,9 @@ if anyone has question or wants to contribute to the project the please contact 
 |click submit|Receive score/point|
 
 
-## Lice
+## Licence
+
+MIT licence. Copyright (c) 2018 Abdillahi mohamud
 
 
 
