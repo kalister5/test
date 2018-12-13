@@ -46,13 +46,10 @@ if anyone has question or wants to contribute to the project the please contact 
 
 ## Behavior Driven Development
 
-Given the user answers all the questions.
-
-And the answers chosen are correct.
-
-When the user press the am finished button.
-
-Then the score points will appear.
+|INPUT|OUTPUT|
+|-------------|
+|Fill in Name, Class and email| Able to submit answered question|
+|Answer all questions and click submit| Receive score/point|
 
 ## License
 
